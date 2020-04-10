@@ -18,7 +18,7 @@ public class Order {
         Findelement.GetElement(By.className("android.widget.FrameLayout")).click();
         Findelement.GetElement(By.id("com.ld.feijing:id/cb_common_select")).click();
         Findelement.GetElement(By.id("com.ld.feijing:id/tv_dialog_select_confirm")).click();
-        Findelement.GetElement(By.xpath("//*[@text=''请填写货物品名或辅助说明，限英文]")).sendKeys(describe);
+        Findelement.GetElement(By.xpath("//*[@text=''请填写货物品名或辅助说明，限英文]")).sendKeys(describe);//ss
         
 
     }
